@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: cicd-fluxcrossplane
+  region: eu-west-3
+  version: "1.22"
+
+managedNodeGroups:
+  - name: spot-ng-1
+    instanceTypes: [ "t2.medium", "t3.medium" ]
+    desiredCapacity: 1
+    volumeSize: 20
+    spot: true
