@@ -28,18 +28,10 @@ spec:
     subnet2-private-cidrBlock: "10.20.12.0/28"
     subnet2-private-availabilityZone: "eu-west-3b"
 
-    subnet-db1-private-name: "private-db-1 "
-    subnet-db1-private-cidrBlock: "10.20.21.0/28"
-    subnet-db1-private-availabilityZone: "eu-west-3a"
-
-    subnet-db2-private-name: "private-db-2"
-    subnet-db2-private-cidrBlock: "10.20.22.0/28"
-    subnet-db2-private-availabilityZone: "eu-west-3b"
-
     cluster-role: arn:aws:iam::187967886115:role/EKSClusterRole-eksClusterRole-1FR2I6UISHIZN
     workernode-role: arn:aws:iam::187967886115:role/EKS-WorkerNode-Role
 
-    k8s-version: "1.21"
+    k8s-version: "1.23"
     workload-type: "non-gpu"
     workers-size: 1
 

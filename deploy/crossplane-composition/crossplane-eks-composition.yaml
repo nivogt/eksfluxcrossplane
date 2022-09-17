@@ -4,7 +4,7 @@ metadata:
   name: crossplane-eks-composition
 spec:
   ignoreCrossplaneConstraints: false
-  package: public.ecr.aws/a3h8w9f7/crossplane/eks-cluster:3.0.32
+  package: public.ecr.aws/a3h8w9f7/crossplane/eks-cluster:1.0.0
   packagePullPolicy: IfNotPresent
   revisionActivationPolicy: Automatic
   revisionHistoryLimit: 0
