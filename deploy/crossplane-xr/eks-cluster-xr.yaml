@@ -39,5 +39,5 @@ spec:
     name: amazon-eks-cluster
 
   writeConnectionSecretToRef:
-    namespace: eks
-    name: crossplane-prod-cluster-connection
+    namespace: flux-system
+    name: crossplane-flux-cluster-connection
