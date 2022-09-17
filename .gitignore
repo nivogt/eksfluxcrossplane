@@ -1,4 +1,4 @@
 aws-credentials.yaml
-
+kubeconfig
 sealing-master.yaml
 secrets.conf
